@@ -1,8 +1,10 @@
-
+<!-- 
 <ul *ngFor = "let iteratorNumber of numbers">
 
   <li appSethighlight>{{ iteratorNumber }}</li>
 
-  <!-- <li [ngClass] = "{ redborder: true}">{{ iteratorNumber }} </li> -->
+   <li [ngClass] = "{ redborder: true}">{{ iteratorNumber }} </li>
 
-</ul>
+</ul> -->
+
+<div [ngStyle] = "{'background-color': 'red' }" appHandleText [innerVal] = "'hello works'">funny</div>

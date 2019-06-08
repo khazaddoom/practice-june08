@@ -5,7 +5,7 @@ import { Directive, HostBinding, ElementRef, Renderer2, OnInit, HostListener } f
 })
 export class SethighlightDirective implements OnInit {
 
-  @HostBinding('innerText') innerTextValue: string = '1';
+  @HostBinding('style.backgroundColor') innerTextValue: string;
 
   constructor(private elementRef: ElementRef, private renderer: Renderer2) {
   }
