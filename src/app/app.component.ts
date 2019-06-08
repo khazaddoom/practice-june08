@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'practice-june08';
+
+  numbers: number[] = [1, 2, 3, 4];
+
 }
